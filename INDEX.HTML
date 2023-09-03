@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous"> -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/43573e4c05.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <NAV>
+                <label class="logo">CHANDRAKANT</label>
+                <UL>
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#achievements">ACHIEVEMENTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+
+                </UL>
+            </NAV>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="first">
+            <div class="leftsec">
+                <div>Hi my name is <span id="colur">CHANDRAKANT</span></div>
+                <div> and I am a</div>
+                <span id="element"></span>
+                <br>
+                <br>
+                <div class="buttons">
+                    <a href="Chandrakant Raut.docx" download class="btn">Download Resume</a>
+
+                    <!-- <button>Download Resume</button> -->
+                </div>
+            </div>
+            <div class="rightsec">
+                <img src="mainimage.png" alt="">
+            </div>
+        </section>
+        <hr id="hr">
+        <!-- --------------------------------------------------about-------------------------------------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="/IMG_0248.JPG" alt="" ;>
+                    </div>
+                    <div class="about-col-2">
+                        <h1 id="aboutme">About Me</h1>
+                        <br>
+                        <p>Hello, I'm Chandrakant Raut, a recent Computer Science Engineering graduate. Passionate about
+                            front-end development, I'm currently immersing myself in the world of cutting-edge
+                            technologies like React and Progressive Web Apps.</p>
+                        <br>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML</span><br>HTML uses a system of elements and tags to define the structure
+                                    and meaning of content on a webpage.</li>
+                                <li><span>CSS</span><br>Stylesheet language used to describe the presentation and visual
+                                    style of HTML documents </li>
+                                <li><span>JAVASCRIPT</span><br>JS used for building interactive and dynamic
+                                    functionality on websites.</li>
+                                <li><span>MySQL</span><br>MySQL is widely used for managing and organizing structured
+                                    data</li>
+                                <li><span>JAVA</span><br>JAVA is commonly used as a backend programming language</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019-2023</span><br>Bachelors of Engineering Computer Science <br>Trinity
+                                    College of Engineering and Research, Pune <br>CGPA 7.93 out of 10</li>
+                                <li><span>2017-2019</span><br>HSC From Shirwal <br>Percentage – 60%</li>
+                                <li><span>2016-2017</span><br>SSC From Shirwal <br>Percentage – 72%</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr id="hr">
+
+        <!-- - ----------------------------------------------services------------------------------------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>Web Design</h3>
+                        <p>I am still gaining experience in web designing so all my services are free for web
+                            development issues. If you want me to help you in your web designing projects feel free to
+                            contact.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-desktop"></i>
+
+                        <h3>Computer Service</h3>
+                        <p>Only software errors/issues will be solved. If there is any software requirement for your
+                            ease then it can be provided with very less cost and guaranteed work.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+
+                        <h3>Learn Coding</h3>
+                        <p>#Begin Anywhere
+                            Your passion will guide you.
+                            This is a Free Service. Some websites may include paid content.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr id="hr1">
+
+        <!-- ---------------------------------------portfolio------------------------------------
+         -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="portfolio img.JPEG">
+                        <div class="layer">
+                            <h2>Personal portfolio</h2>
+                            <P>Developed Personal portfolio using HTML, CSS and JavaScript</P>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="amazon img.JPEG">
+                        <div class="layer">
+                            <h2>Online shoping app</h2>
+                            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, aliquam aperiam quidem
+                                sequi neque quae eos</P>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="amazon img.JPEG">
+                        <div class="layer">
+                            <h2>Weather App</h2>
+                            <P>This is a Java-Script-based Weather app project. It is a weather-based project which
+                                helps to find out
+                                the weather of the cities</P>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr id="hr1"><pre id="pre"> <div id="achievements">
+            <h1 class="sub-title1">Achievements</h1>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/react certificate infosys_page-0001.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/certificate2.JPEG" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/MySQL certificate.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <img src="/chandrakant_raut20230812-72-7zn150.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/certificate1.JPEG" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/certificate3.JPEG" class="d-block w-100" alt="...">
+                  </div>
+                 
+                </div>
+              </div>
+        </div></pre>
+        <hr id="hr2">
+
+        <!-- ---------------------contact------------------------------->
+        <div id="contact">
+            <div class="container1">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>rautchandrakant@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9370524852</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/chandrakant-raut-0813301b1"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/rautchandrakant"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/chandrakant.raut.509/"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://instagram.com/chandrakant_2137?igshid=OGQ5ZDc2ODk2ZA=="><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your massage"></textarea>
+                        <button type="submit" class="btn1">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="cpoyright">
+            <p>Copyright © chandrakant raut. </p>
+        </div>
+
+
+
+    </main>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
+    </script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ["Web Developer", "Front-End Developer", "Back-End Developer"],
+            typeSpeed: 60,
+        }); 
+    </script>
+    <script>
+        var tablinks = document.querySelectorAll(".tab-links");  // Use querySelectorAll to select multiple elements
+        var tabcontents = document.querySelectorAll(".tab-contents"); // Use querySelectorAll to select multiple elements
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link"); // Use 'classList' instead of 'classlist', and 'remove' instead of 'classlist.remove'
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab"); // Use 'classList' instead of 'classlist', and 'remove' instead of 'classlist.remove'
+            }
+            event.currentTarget.classList.add("active-link"); // Use 'currentTarget' to refer to the clicked element
+            document.getElementById(tabname).classList.add("active-tab"); // Use 'classList' instead of 'classlist', and 'add' instead of 'classlist.add'
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbz0mDqLDhV3RiDvyX4kRdRtySLfVS6QDYhdNpA_ydyMKhRyBeAYkLJEPaZmo77zDOe7/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 3000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
